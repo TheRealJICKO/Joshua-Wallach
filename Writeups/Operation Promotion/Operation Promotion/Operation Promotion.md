@@ -24,7 +24,7 @@ We can run an initial nmap scan to understand the target system.
 nmap -p- -T4 10.48.187.141
 ```
 
-![[Pasted image 20260806145322.png]]
+![](Pasted image 20260806145322.png)
 
 Now we can run a more detailed port scan to enumerate the active services and any possible vulnerabilities.
 
