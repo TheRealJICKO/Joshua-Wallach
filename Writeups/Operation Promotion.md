@@ -156,7 +156,7 @@ cat db.conf
 
 <img width="934" height="278" alt="image" src="https://github.com/user-attachments/assets/dd77f0f8-6e92-4047-a58b-9c4bf2f6d6bd" />
 
-After a lengthy cracking attempt, I could not retrieve the plaintext password. I realised that I had to look elsewhere. The static webpage contained unique keywords such as "recruit", "corp", and the mention of a spring 2026 hiring drive. I built a custom wordlist by manually scraping a few keywords, and transformed the wordlist using hashcat's dive rule.
+I realised that I had to look elsewhere, as cracking bcrypt hashes is not reliable due to the immense time sink. The static webpage contained unique keywords such as "recruit", "corp", and the mention of a spring 2026 hiring drive. I built a custom wordlist by manually scraping a few keywords, and transformed the wordlist using hashcat's dive rule.
 
 ```shell
 hashcat words -r /usr/share/hashcat/rules/dive.rule --stdout > mutated_words.txt
