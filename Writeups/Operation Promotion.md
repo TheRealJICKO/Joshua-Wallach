@@ -1,7 +1,7 @@
 # [Operation Promotion]
 
 
-| **Platform**       | TryHackMe                                               |
+| **Platform**       | [TryHackMe](https://tryhackme.com)                      |
 | ------------------ | ------------------------------------------------------- |
 | **Difficulty**     | Easy                                                    |
 | **OS**             | Linux                                                   |
